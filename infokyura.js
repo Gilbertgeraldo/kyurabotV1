@@ -1,29 +1,29 @@
 let handler  = async (m, { conn, usedPrefix }) => { 
 conn.reply(m.chat, `
 ╭─˗ˏˋ *Informasi Owner* ´ˎ˗
-│ ✎ Nama : Kyura 
-│    Kelas : 11 DKV 2,SMK N 1 SAWAN
-│    Umur : 16
-│    Asal : Bali 
+│ ✎ Nama : Gilbert
+│    Kelas : 9
+│    Umur : 15
+│    Asal : Bandung
 │    Status : gatau mw isi apa anj
-│    Suka : Jepang, Coding (dikit), B.Inggris
+│    Suka : Jepang, Coding (dikit), B.ingg, mtk
 │ ✎ _Official Grup_ :
-│    bit.ly/officialgrupkyurabot
+│    gaada gc:(
 │ ✎ _Instagram_ :
-│    bit.ly/instagramkyura
+│    @gaada_apa_apa_wkwk
 │ ✎ _YouTube_ : 
-│    bit.ly/Youtubekyura
+│    -
 │ ✎ _FaceBook_ :
-│    bit.ly/facebookkyura
+│    -
 │ ✎ _WhatsApp_ :
-│    bit.ly/whatsappkyura
+│    wa.me/6289656122352
 ╰‿‿‿‿‿‿‿‿
 `.trim(), m)
 }
 
-handler.help = ['infokyura']
+handler.help = ['infogilbert']
 handler.tags = ['main']
-handler.command = /^(infokyura)$/i
+handler.command = /^(infogilbert)$/i
 
 handler.exp = 150
 
