@@ -19,7 +19,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
     let type = (args[0] || '').toLowerCase()
     let _type = (args[1] || '').toLowerCase()
     let jualbeli = (args[0] || '').toLowerCase()
-    await m.reply('subscribe yaa\n youtube.com/c/KYURA')
+    await m.reply('follow ig ya\n @gaada_apa_apawkwk')
     const Kchat = `
 ${usedPrefix}shop <Buy|sell> <item> <jumlah>\n
 Contoh penggunaan: *${usedPrefix}shop buy potion 1*\n\n
